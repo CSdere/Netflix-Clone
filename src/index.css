@@ -1,0 +1,251 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.Landing {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BgImg {
+  height: 700px;
+  object-fit: cover;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(40%)
+}
+
+.Header {
+  width: 100%;
+  padding: 24px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.Header img {
+  height: 40px;
+}
+
+.Header button {
+  width: 76px;
+  height: 32px;
+  padding: 4px 16px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: ease-in 0.15s;
+}
+
+.Header button:hover {
+  background-color: rgba(229, 9, 20, 0.904);
+  cursor: pointer;
+}
+
+.LandingMain {
+  margin: 120px 20%;
+  text-align: center;
+  margin-top: 200px;
+  color: white;
+}
+
+.LandingMain h1{
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.LandingMain h2{
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.LandingMain h3{
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.LandingInputs {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LandingInputs input {
+  width: 370px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 16px;
+  background: rgba(0,0,0,0.4);
+  font-size: 16px;
+  font-weight: 400;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  color: white;
+}
+
+.LandingInputs button {
+  width: 207px;
+  height: 56px;
+  background-color: rgb(229, 9, 20);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-left: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: ease-in 0.15s;
+}
+
+.LandingInputs button:hover {
+  background-color: rgba(229, 9, 20, 0.904);
+}
+
+.CardLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 616px;
+  width: 100%;
+  padding: 72px 10%;
+  background-color: black;
+  color: white;
+
+}
+
+.CardLeftImgBox {
+  width: 46%;
+}
+
+.CardLeft img {
+  width: 100%;
+}
+
+.CardLeftText {
+  width: 50%;
+}
+
+.CardLeft h2 {
+  font-size: 48px;
+  font-weight: 900;
+  width: 90%;
+}
+
+.CardLeft p {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+  width: 80%;
+}
+
+.CardSeparator {
+  height: 8px;
+  width: 100%;
+  background: rgb(35, 35, 35);
+}
+
+.FAQ {
+  width: 100%;
+  min-height: 934px;
+  padding: 72px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAQ-p {
+  margin-top: 45px;
+}
+
+.FAQ h2{
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.FAQDropDowns {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.questionButton {
+  width: 100%;
+  border: none;
+  height: 85px;
+  margin-bottom: 8px;
+  background-color: rgb(45, 45, 45);
+  color: white;
+}
+
+.Answer {
+  width: 100%;
+  background-color: rgb(55, 55, 55);
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 24px;
+  margin-top: -6px;
+}
+
+.Question {
+  width: 100%;
+  height: 85px;
+  background-color: rgb(45, 45, 45);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.Question:hover {
+  background-color: rgb(55, 55, 55);
+}
+
+.hidden {
+  display: none;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer li {
+  margin: 20px;
+}
+
+.footer h3 {
+  font-size: 36px;
+  font-weight: 400;
+  text-decoration: underline;
+}
